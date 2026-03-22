@@ -1,6 +1,6 @@
 {
   "name": "@gonzih/skills-sales",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Claude Code skills for sales reps, account executives, and business development professionals.",
   "type": "module",
   "bin": {

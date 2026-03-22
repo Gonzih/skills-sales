@@ -32,5 +32,11 @@ Build a simple ROI model with clearly stated assumptions. Include: estimated tim
 ### Step 6 — Next Steps & Call to Action
 Close with a mutual action plan: 3–5 numbered next steps with owners (prospect and vendor), suggested timeline, and a signature/approval block. Make the CTA specific — a date for a follow-up, a pilot kick-off, or a procurement submission deadline.
 
+## Live Data Sources
+
+- **Company blog RSS feeds** — pull recent posts from `{domain}/feed` or `{domain}/rss` to find published case studies, product announcements, and strategic priorities that can be quoted or referenced in the executive summary and problem statement.
+- **G2 / Capterra reviews** — public review pages for your product and competitors provide customer language for proof points, common pain themes, and social proof statistics (e.g., average rating, number of reviews) to embed in the ROI section.
+- **Pricing page scraping patterns** — compare competitor pricing pages using a headless browser or a scraping proxy to build accurate competitor pricing context and sharpen your pricing table positioning.
+
 ## Example outputs
 A complete proposal document (6–10 sections) in clean markdown, ready to paste into Google Docs, Notion, or a PDF template. Includes exec summary, problem statement, solution fit table, pricing table, ROI model, and next steps with owners and dates.

@@ -48,5 +48,10 @@ Assess whether the deal has forward momentum or is stalling. Look for: time sinc
 ### Step 5 — Recommended Next Actions
 Provide 3–5 prioritized next actions ranked by impact on deal health. For each action include: what to do, who owns it (rep, champion, AE), and the goal it addresses (MEDDIC gap, risk mitigation, or momentum). Format as a short action table with a suggested completion date.
 
+## Live Data Sources
+
+- **HubSpot / Salesforce deal velocity benchmarks** — pull aggregate pipeline metrics from your CRM (HubSpot `GET /crm/v3/objects/deals` or Salesforce SOQL on the `Opportunity` object) to compare the current deal's stage duration and ACV against team averages, flagging outliers in the momentum assessment.
+- **ACV-to-close-time research by segment** — published benchmarks (e.g., SaaStr, OpenView SaaS benchmarks, Bain B2B research) mapping average sales cycle length to ACV bands and company segment. Cross-reference the deal's target close date against segment norms to validate or challenge timeline assumptions in the MEDDIC scorecard.
+
 ## Example outputs
 A structured deal review document with a completed MEDDIC scorecard and total score, a ranked risk flag list with severity labels, a stakeholder map with engagement status, a momentum classification, and a prioritized next-actions table. Suitable for pipeline reviews, forecasting calls, or deal strategy sessions with a manager.
