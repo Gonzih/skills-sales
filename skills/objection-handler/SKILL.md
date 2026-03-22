@@ -41,5 +41,10 @@ Provide one relevant proof point: a customer story, benchmark, statistic, or ana
 ### Step 5 — Follow-up Question
 Write 2–3 follow-up questions that re-engage the prospect and move the conversation forward. Questions should be open-ended and designed to either confirm the reframe landed or surface the real underlying objection if this one was a smokescreen.
 
+## Live Data Sources
+
+- **Gartner Peer Insights public reviews** — free, publicly browsable reviews at `gartner.com/reviews` filterable by industry, company size, and product. Use them to surface industry-specific objection patterns, common competitor comparisons, and verbatim proof points to deploy in reframe scripts.
+- **Win/loss pattern databases by industry** — internal win/loss data (if available in CRM) and third-party benchmarks (e.g., Clozd, Crayon competitive intelligence) segmented by industry vertical to identify the most frequent objection types in a given segment and calibrate proof point selection accordingly.
+
 ## Example outputs
 A response playbook with five labeled sections per objection: classification and root cause, acknowledge opener, reframe script, proof point, and follow-up questions. Can handle one objection in depth or generate a comparison table for multiple objections at once.

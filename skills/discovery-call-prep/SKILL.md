@@ -38,5 +38,12 @@ Produce a time-boxed talk track for a 45-minute discovery call:
 - **30–40 min** — Solution positioning, differentiator moments
 - **40–45 min** — Next steps, mutual action plan
 
+## Live Data Sources
+
+- **Crunchbase API** — funding rounds, headcount, investor signals, and company stage. Use `GET /entities/organizations/{permalink}` to pull funding history and employee count for the prospect's company before the call.
+- **NewsAPI** (`newsapi.org`) — recent press coverage and company news. Query `GET /v2/everything?q={company}&sortBy=publishedAt` to surface recent announcements, leadership changes, or product launches that can be woven into rapport-building and pain hypotheses.
+- **LinkedIn company page patterns** — headcount growth by department (available on the "People" tab without authentication), recent hires in leadership roles, and open job postings as hiring-signal proxies for strategic priorities.
+- **BuiltWith technology detection** — tech stack fingerprint for the prospect's domain. Use `GET https://api.builtwith.com/v21/api.json?KEY={key}&LOOKUP={domain}` to identify current tooling, detect gaps your solution fills, and surface integration talking points.
+
 ## Example outputs
 A structured markdown document with five labeled sections: company summary, ranked pain hypotheses, categorized discovery questions, competitor comparison table, and a time-boxed talk track. Ready to paste into a call notes doc or CRM.
